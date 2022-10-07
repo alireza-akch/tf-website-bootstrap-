@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(223, 241, 241);
+}
+head{
+  height: 500px;
+}
+#btn-login{
+  margin-left: 1200px;
+  margin-top: 30px;
+ }
+.row {
+  justify-content: space-evenly;
+}
+
+.row .col-4 video {
+  width: 350px;
+  height: 200px;
+  margin: 0 auto 0;
+}
+.card{
+  margin: 30px 0 30px;
+  direction: rtl;
+  font-family:sans;
+  color:rgb(90, 129, 13);
+}
+.card:hover{
+  opacity: 0.8;
+  background-color: rgb(210, 244, 225);
+}
+
+   
+
+
+/*fonts*/
+@font-face{
+  font-family:sans;
+  src:url(/fonts/A-Iranian-Sans/Iranian\ Sans.ttf);
+  
+ }
+ @font-face{
+  font-family:b-titr;
+  src:url(/fonts/B-Titr/B-Titr/B\ Titr\ Bold_0.ttf);
+ }
+ @font-face{
+   font-family:khodkar;
+   src:url(/fonts/Far_khodkar/Far_khodkar/Far_khodkar.ttf);
+ }
+@font-face{
+  font-family:iranNastaliq;
+  src:url(/fonts/IranNastaliqHelp-fontyab.com_/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+ }
+ @font-face{
+   font-family:vazir;
+   src:url(fonts/Vazir.woff);
+ }

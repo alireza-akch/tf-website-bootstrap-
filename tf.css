@@ -1,0 +1,303 @@
+
+#header-icon{
+  width:100px; 
+  height:50px;
+  float:left;
+}
+#btn-login{
+  float:right;
+}
+body{
+  background-color:rgb(223, 241, 241);
+  width:99%;
+}
+
+#google_translate_element{
+  margin-bottom:30px;
+}
+
+
+
+
+h1{
+    text-align:center;
+    color:rgb(165, 48, 2);
+    margin:80px auto;
+    font-family:irannastaliq;  
+    font-weight:bold;
+    width:100vh;
+}
+#navbar-header{
+   background-image: linear-gradient(to right,rgb(228, 32, 32),rgb(236, 236, 15));
+   display:flex;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    right:20px;
+ }
+ .list-group-item:hover{
+    color:rgb(68, 185, 68);
+    font-weight:bold;
+ }
+ .dropdown-item:hover{
+    color:rgb(3, 3, 3);
+    background-color:rgb(255, 210, 64);
+    font-weight:bold;
+ }
+ #btn-subject:hover{
+    color:rgb(124, 12, 12);
+ }
+ #btn-subject{
+   font-size:large;
+   font-weight:bold;
+   font-family:b-titr;
+   color:rgb(177, 46, 46);
+   cursor:pointer;
+ }
+ .dropdown-item{
+   font-family:khodkar;
+   font-size:large;
+ }
+ .dropdown img{
+   width:30px;
+ }
+ .list-group-item{
+   font-family:sans;
+   color:white;
+ }
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ /*fonts*/
+ @font-face{
+   font-family:sans;
+   src:url(/fonts/A-Iranian-Sans/Iranian\ Sans.ttf);
+   
+  }
+  @font-face{
+   font-family:b-titr;
+   src:url(/fonts/B-Titr/B-Titr/B\ Titr\ Bold_0.ttf);
+  }
+  @font-face{
+    font-family:khodkar;
+    src:url(/fonts/Far_khodkar/Far_khodkar/Far_khodkar.ttf);
+  }
+@font-face{
+   font-family:iranNastaliq;
+   src:url(/fonts/IranNastaliqHelp-fontyab.com_/IranNastaliq&Help-fontyab.com/IranNastaliq.ttf);
+  }
+  @font-face{
+    font-family:vazir;
+    src:url(fonts/Vazir.woff);
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #text-container{
+    margin:50px;
+    padding: 10px;
+    background-color: rgb(220, 169, 169);
+    border:2px solid gray;
+    border-radius: 10px;
+    text-align:center;
+  }
+  
+  P1{
+    font-size: 13pt;
+    overflow:hidden;
+    font-weight:bold;
+    font-family:sans;
+  }
+
+
+  
+  
+  
+  
+  
+  
+  
+  #ImgThumbnail {
+    border-radius: 400px 200px;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 200px;
+    width: 300px;
+    margin-left:70px;
+    border:3px solid rgb(21, 78, 4);
+  }
+  #ImgThumbnail:hover{
+    opacity:0.7;
+  }
+  
+  /* #caption-container{
+    display:flex;
+    justify-content: space-around;
+  } */
+  #modal-container{
+    margin-bottom: 50px;
+  }
+  #caption{
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+    width:460px;
+    margin-bottom:10px;
+  font-family:b-titr;
+  color:rgb(21, 133, 35);
+  font-size:20pt;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
+}
+.modal .btn-close{
+  margin-top:10px;
+  margin-right:100px;
+  float:right;
+}
+.modalImage {
+  margin: auto;
+  display: block;
+  width: 70%;
+  height: 80%;
+  max-width: 700px;
+}
+
+
+
+
+
+
+#footer{
+  background-color:rgb(21, 12, 57);
+  height:400px;
+  color:white;
+}
+#ul-footer{
+  list-style:none;
+  direction:rtl;
+  margin-left:80px;
+  font-family:sans;
+}
+#footer-subject{
+  padding-bottom:20px;
+}
+#ul-footer .btn{
+  color:white;
+  padding:0px;
+}
+#ul-footer .btn:hover{
+  color:red;
+}
+#ul-footer img{
+  width:40px;
+}
+#ul-footer iframe{
+ width: 200px;
+ height: 150px;
+ border-radius: 5px;
+ margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* midia query ha bayad dar entehaie style ma bashan chon olaviat dehi css mane az ejraie sahih mishavad */
+/* responsive-title(h1) */
+
+@media only screen and (max-width: 700px) {
+  .modalImage {
+     width: 100%;
+  }
+}
+ @media only screen and (max-width: 900px) {
+  h1 {
+   width:70%; 
+  }
+}
+ @media only screen and (max-width: 900px) {
+  #navbar-header {
+   margin:0 auto 0; 
+  }
+}
+ @media only screen and (max-width: 900px) {
+  #search-btn {
+   display:none; 
+  }
+}
+ @media only screen and (max-width: 900px) {
+  #search {
+   display:none; 
+  }
+}
+ @media only screen and (max-width: 900px) {
+  .navbar-toggler {
+   margin-left:auto;
+  }
+}
+ @media only screen and (max-width: 900px) {
+  .dropdown {
+   float:right;
+   direction:rtl;
+  }
+}
+ @media only screen and (max-width: 900px) {
+  .ImgThumbnail {
+   width: 33.33%;
+  }
+}
+ @media only screen and (max-width: 900px) {
+  #caption {
+   font-size:15pt;
+  }
+}
+ @media only screen and (max-width: 600px) {
+  p1 {
+   font-size:10pt;
+  }
+}
+ @media only screen and (max-width: 600px) {
+  #text-container  {
+    width: 400px;;
+    height:150px;
+    overflow:scroll;
+  }
+}
+ @media only screen and (max-width: 600px) {
+  #footer {
+   height: 630px;
+  }
+}

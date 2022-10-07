@@ -1,0 +1,21 @@
+#body{
+    background-color:rgba(206, 244, 156, 0.479);
+    margin: 30px;
+}
+#btn-login{
+ margin-left: 1200px;
+ margin-top: 30px;
+}
+#login-form{
+  width:500px;
+  height:450px;
+  margin:auto;
+  margin-top:100px;
+  padding:20px;
+  background: rgba(241, 215, 66, 0.536);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(11.1px);
+-webkit-backdrop-filter: blur(11.1px);
+border: 1px solid rgba(43, 165, 9, 0.3);
+}
